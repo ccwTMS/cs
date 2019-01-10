@@ -1,19 +1,32 @@
 # cs
 client/server sample code for transmission test.
-** Both IPv4 and IPv6 connecting supported.
-** UDP type connecting supported.
-** using getifaddrs() to replace SIOCGIFADDR ioctl command for get IP addersses from ethernet interface.
-** inet_pton and inet_ntop test.
-** getnameinfo() test.
 
+** Both IPv4 and IPv6 connecting supported.
+
+** UDP type connecting supported.
+
+** using getifaddrs() to replace SIOCGIFADDR ioctl command for get IP addersses from ethernet interface.
+
+** inet_pton and inet_ntop test.
+
+** getnameinfo() test.
+　
+　
+　
 options:
+
 -p port_number:
+
 -i ip:
+
 -s package_size:
+
 -v　　　　　　　　: dump messages
+
 -w write_path　　　: file path for writing test.
--f write_path　　　: write file test only.
--u option for UDP protocol.
+
+-f write_path　　　: write file test only.-u option for UDP protocol.
+
 -b option for broadcast by IPv6.
 
 
