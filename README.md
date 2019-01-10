@@ -28,7 +28,7 @@ options:
 
 -f write_path　　　: write file test only.-u option for UDP protocol.
 
--b option for broadcast by IPv6.
+-b                :option for broadcast by IPv6.
 
 
 ex:
